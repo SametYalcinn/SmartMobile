@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Test
+//  PirateShip
 //
-//  Created by Student on 15/02/2019.
-//  Copyright © 2019 Student. All rights reserved.
+//  Created by Fontys on 21/02/2019.
+//  Copyright © 2019 Fontys. All rights reserved.
 //
 
 import UIKit

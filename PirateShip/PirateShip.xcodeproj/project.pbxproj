@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F37A1892216CD490044033C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37A1882216CD490044033C /* AppDelegate.swift */; };
-		3F37A18B2216CD490044033C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37A18A2216CD490044033C /* ViewController.swift */; };
-		3F37A18E2216CD490044033C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F37A18C2216CD490044033C /* Main.storyboard */; };
-		3F37A1902216CD4A0044033C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F37A18F2216CD4A0044033C /* Assets.xcassets */; };
-		3F37A1932216CD4A0044033C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F37A1912216CD4A0044033C /* LaunchScreen.storyboard */; };
+		DC8248D4221E95400088032A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8248D3221E95400088032A /* AppDelegate.swift */; };
+		DC8248D9221E95400088032A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8248D7221E95400088032A /* Main.storyboard */; };
+		DC8248DB221E95410088032A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8248DA221E95410088032A /* Assets.xcassets */; };
+		DC8248DE221E95410088032A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8248DC221E95410088032A /* LaunchScreen.storyboard */; };
+		DC8248E8221E95FC0088032A /* PirateShipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8248E7221E95FC0088032A /* PirateShipTableViewController.swift */; };
+		DC8248EB221E98660088032A /* Pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8248EA221E98660088032A /* Pirate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F37A1852216CD490044033C /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F37A1882216CD490044033C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F37A18A2216CD490044033C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F37A18D2216CD490044033C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F37A18F2216CD4A0044033C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F37A1922216CD4A0044033C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F37A1942216CD4A0044033C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8248D0221E95400088032A /* PirateShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PirateShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8248D3221E95400088032A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC8248D8221E95400088032A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC8248DA221E95410088032A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC8248DD221E95410088032A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC8248DF221E95410088032A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8248E7221E95FC0088032A /* PirateShipTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateShipTableViewController.swift; sourceTree = "<group>"; };
+		DC8248EA221E98660088032A /* Pirate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pirate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F37A1822216CD490044033C /* Frameworks */ = {
+		DC8248CD221E95400088032A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +37,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F37A17C2216CD490044033C = {
+		DC8248C7221E95400088032A = {
 			isa = PBXGroup;
 			children = (
-				3F37A1872216CD490044033C /* Test */,
-				3F37A1862216CD490044033C /* Products */,
+				DC8248D2221E95400088032A /* PirateShip */,
+				DC8248D1221E95400088032A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F37A1862216CD490044033C /* Products */ = {
+		DC8248D1221E95400088032A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F37A1852216CD490044033C /* Test.app */,
+				DC8248D0221E95400088032A /* PirateShip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F37A1872216CD490044033C /* Test */ = {
+		DC8248D2221E95400088032A /* PirateShip */ = {
 			isa = PBXGroup;
 			children = (
-				3F37A1882216CD490044033C /* AppDelegate.swift */,
-				3F37A18A2216CD490044033C /* ViewController.swift */,
-				3F37A18C2216CD490044033C /* Main.storyboard */,
-				3F37A18F2216CD4A0044033C /* Assets.xcassets */,
-				3F37A1912216CD4A0044033C /* LaunchScreen.storyboard */,
-				3F37A1942216CD4A0044033C /* Info.plist */,
+				DC8248E9221E984D0088032A /* Models */,
+				DC8248D3221E95400088032A /* AppDelegate.swift */,
+				DC8248D7221E95400088032A /* Main.storyboard */,
+				DC8248DA221E95410088032A /* Assets.xcassets */,
+				DC8248DC221E95410088032A /* LaunchScreen.storyboard */,
+				DC8248DF221E95410088032A /* Info.plist */,
+				DC8248E7221E95FC0088032A /* PirateShipTableViewController.swift */,
 			);
-			path = Test;
+			path = PirateShip;
+			sourceTree = "<group>";
+		};
+		DC8248E9221E984D0088032A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC8248EA221E98660088032A /* Pirate.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F37A1842216CD490044033C /* Test */ = {
+		DC8248CF221E95400088032A /* PirateShip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F37A1972216CD4A0044033C /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = DC8248E2221E95410088032A /* Build configuration list for PBXNativeTarget "PirateShip" */;
 			buildPhases = (
-				3F37A1812216CD490044033C /* Sources */,
-				3F37A1822216CD490044033C /* Frameworks */,
-				3F37A1832216CD490044033C /* Resources */,
+				DC8248CC221E95400088032A /* Sources */,
+				DC8248CD221E95400088032A /* Frameworks */,
+				DC8248CE221E95400088032A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Test;
-			productName = Test;
-			productReference = 3F37A1852216CD490044033C /* Test.app */;
+			name = PirateShip;
+			productName = PirateShip;
+			productReference = DC8248D0221E95400088032A /* PirateShip.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F37A17D2216CD490044033C /* Project object */ = {
+		DC8248C8221E95400088032A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = Student;
+				ORGANIZATIONNAME = Fontys;
 				TargetAttributes = {
-					3F37A1842216CD490044033C = {
+					DC8248CF221E95400088032A = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 3F37A1802216CD490044033C /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = DC8248CB221E95400088032A /* Build configuration list for PBXProject "PirateShip" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +118,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F37A17C2216CD490044033C;
-			productRefGroup = 3F37A1862216CD490044033C /* Products */;
+			mainGroup = DC8248C7221E95400088032A;
+			productRefGroup = DC8248D1221E95400088032A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F37A1842216CD490044033C /* Test */,
+				DC8248CF221E95400088032A /* PirateShip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F37A1832216CD490044033C /* Resources */ = {
+		DC8248CE221E95400088032A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F37A1932216CD4A0044033C /* LaunchScreen.storyboard in Resources */,
-				3F37A1902216CD4A0044033C /* Assets.xcassets in Resources */,
-				3F37A18E2216CD490044033C /* Main.storyboard in Resources */,
+				DC8248DE221E95410088032A /* LaunchScreen.storyboard in Resources */,
+				DC8248DB221E95410088032A /* Assets.xcassets in Resources */,
+				DC8248D9221E95400088032A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F37A1812216CD490044033C /* Sources */ = {
+		DC8248CC221E95400088032A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F37A18B2216CD490044033C /* ViewController.swift in Sources */,
-				3F37A1892216CD490044033C /* AppDelegate.swift in Sources */,
+				DC8248EB221E98660088032A /* Pirate.swift in Sources */,
+				DC8248E8221E95FC0088032A /* PirateShipTableViewController.swift in Sources */,
+				DC8248D4221E95400088032A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F37A18C2216CD490044033C /* Main.storyboard */ = {
+		DC8248D7221E95400088032A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F37A18D2216CD490044033C /* Base */,
+				DC8248D8221E95400088032A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3F37A1912216CD4A0044033C /* LaunchScreen.storyboard */ = {
+		DC8248DC221E95410088032A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F37A1922216CD4A0044033C /* Base */,
+				DC8248DD221E95410088032A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F37A1952216CD4A0044033C /* Debug */ = {
+		DC8248E0221E95410088032A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +235,7 @@
 			};
 			name = Debug;
 		};
-		3F37A1962216CD4A0044033C /* Release */ = {
+		DC8248E1221E95410088032A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,34 +290,34 @@
 			};
 			name = Release;
 		};
-		3F37A1982216CD4A0044033C /* Debug */ = {
+		DC8248E3221E95410088032A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = PirateShip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = FHICT.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.PirateShip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3F37A1992216CD4A0044033C /* Release */ = {
+		DC8248E4221E95410088032A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = PirateShip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = FHICT.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.PirateShip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,25 +327,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F37A1802216CD490044033C /* Build configuration list for PBXProject "Test" */ = {
+		DC8248CB221E95400088032A /* Build configuration list for PBXProject "PirateShip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F37A1952216CD4A0044033C /* Debug */,
-				3F37A1962216CD4A0044033C /* Release */,
+				DC8248E0221E95410088032A /* Debug */,
+				DC8248E1221E95410088032A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F37A1972216CD4A0044033C /* Build configuration list for PBXNativeTarget "Test" */ = {
+		DC8248E2221E95410088032A /* Build configuration list for PBXNativeTarget "PirateShip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F37A1982216CD4A0044033C /* Debug */,
-				3F37A1992216CD4A0044033C /* Release */,
+				DC8248E3221E95410088032A /* Debug */,
+				DC8248E4221E95410088032A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F37A17D2216CD490044033C /* Project object */;
+	rootObject = DC8248C8221E95400088032A /* Project object */;
 }
